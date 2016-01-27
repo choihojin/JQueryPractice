@@ -1,0 +1,26 @@
+jQuery 이펙트와 애니메이션
+
+div로 나눠주는 것은 같다 . 
+id로 선언한 것은 #으로 받는다 
+class로 선언 한 것은 .으로 받는다. 
+
+z-index할 경우 순서에 따라 위에 위에 위에 그린다.
+overflow : hidden  안보이는 부분은 숨겨준다.
+
+가장 큰 틀을 absolute로 고정시킨다면 밑의 것은 위치가 정해진다.
+
+
+반짝이는 것을 할때는 기존에 처음 display를 안나타 나도록 해야한다.
+따라서 none으로 설정후 한다.
+slide는 접었다 펼쳤다 하는 것
+fade in fade out은 보였다 흐려졌다 하는 것 .
+
+fade effect 적용
+$("#lightning1").fadeIn("fast");
+진해지는것 
+$("#lightning1").fadeIn("1000");// 1000=1초
+$("#lightning1").fadeIn().fadeout()// 흐려졌다 밝아졌다 혼자서한다.
+
+animate  : 화면의 크기를 작아졌다 커졌다 시키는것으로
+볼수도 잇고 움직인다 볼수 있다 .
+하지만 긴그림에서 옆으로 당겨 착시현상으로 보이는 것
